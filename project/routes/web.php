@@ -12,28 +12,21 @@
 */
 
 /* Front section */
-Route::get('/', 'HomeController@index');
-Route::get('/home', 'HomeController@index');
-
 Route::group(['middleware' => 'guest', 'prefix' => 'front', 'namespace' => 'Front'], function() {
     Route::get('/', 'HomeController@index');
     Route::get('/articles', 'ArticlesController@index');
 });
 
 /* Admin section*/
-
 Route::group(['middleware' => 'auth', 'prefix' => 'admin', 'namespace' => 'Admin'], function() {
     Route::get('/', 'HomeController@index');
-    Route::get('/articles', 'ArticlesController@index');
+    Route::get('/articles', 'ArticlesController@index')->name('admin_articles');;
+    Route::get('/articles/{article_id}', 'ArticlesController@show')->name('admin_articles_view');
 });
-
-
-
-
 
 Auth::routes();
 
-
+Route::get('/home', 'HomeController@index');
 Route::get('/articles', 'HomeController@show');
 Route::get('/posts/create', 'PostsController@create');
 Route::get('/posts/{post}', 'PostsController@show');

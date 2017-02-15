@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My App</title>
+    <title>My App | Administration</title>
 
     <script type="text/css">
         body {
@@ -14,17 +14,15 @@
 
     </script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    @include('layouts.bootstrap')
+    @include('shared.bootstrap')
 </head>
 <body>
-    @include('layouts.header')
+    @include('admin.layouts.header')
     <div class="container">
-        <div class="starter-template">
         @yield('content')
-        </div>
     </div>
     <div id="footer">
-        @include('layouts.footer')
+        @include('admin.layouts.footer')
     </div>
 </body>
 </html>

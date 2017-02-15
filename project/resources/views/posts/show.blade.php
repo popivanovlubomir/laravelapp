@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('shared.master')
 
 @section('content')
     <div class="col-sm-8">
@@ -32,7 +32,7 @@
             <button type="submit" class="btn btn-primary">Add comment</button>
         </div>
     </form>
-    @include('layouts.errors')
+    @include('admin.layouts.errors')
 @endsection
 
 @section('footer')

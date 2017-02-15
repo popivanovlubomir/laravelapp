@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('shared.master')
 
 @section('content')
     <div class="col-sm-8">
