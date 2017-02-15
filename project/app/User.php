@@ -26,4 +26,15 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /**
+     *
+     * Define relation with articles
+     *
+     */
+    public function articles()
+    {
+        return $this->hasMany(Articles::class, 'users_id');
+    }
+
 }

@@ -1,0 +1,2514 @@
+-- Logs begin at Wed 2017-02-15 13:13:40 UTC, end at Wed 2017-02-15 13:21:42 UTC. --
+Feb 15 13:13:40 laravelapp kernel:   DMA zone: 3998 pages, LIFO batch:0
+Feb 15 13:13:40 laravelapp kernel:   DMA32 zone: 14272 pages used for memmap
+Feb 15 13:13:40 laravelapp kernel:   DMA32 zone: 913392 pages, LIFO batch:31
+Feb 15 13:13:40 laravelapp kernel:   Normal zone: 2048 pages used for memmap
+Feb 15 13:13:40 laravelapp kernel:   Normal zone: 131072 pages, LIFO batch:31
+Feb 15 13:13:40 laravelapp kernel: ACPI: PM-Timer IO Port: 0x4008
+Feb 15 13:13:40 laravelapp kernel: ACPI: Local APIC address 0xfee00000
+Feb 15 13:13:40 laravelapp kernel: IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Feb 15 13:13:40 laravelapp kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 15 13:13:40 laravelapp kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Feb 15 13:13:40 laravelapp kernel: ACPI: IRQ0 used by override.
+Feb 15 13:13:40 laravelapp kernel: ACPI: IRQ9 used by override.
+Feb 15 13:13:40 laravelapp kernel: Using ACPI (MADT) for SMP configuration information
+Feb 15 13:13:40 laravelapp kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0xe0000000-0xfffbffff]
+Feb 15 13:13:40 laravelapp kernel: PM: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Feb 15 13:13:40 laravelapp kernel: e820: [mem 0xe0000000-0xfffbffff] available for PCI devices
+Feb 15 13:13:40 laravelapp kernel: Booting paravirtualized kernel on KVM
+Feb 15 13:13:40 laravelapp kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Feb 15 13:13:40 laravelapp kernel: setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Feb 15 13:13:40 laravelapp kernel: PERCPU: Embedded 33 pages/cpu @ffff88011fc00000 s98008 r8192 d28968 u1048576
+Feb 15 13:13:40 laravelapp kernel: pcpu-alloc: s98008 r8192 d28968 u1048576 alloc=1*2097152
+Feb 15 13:13:40 laravelapp kernel: pcpu-alloc: [0] 0 1 
+Feb 15 13:13:40 laravelapp kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Feb 15 13:13:40 laravelapp kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1032057
+Feb 15 13:13:40 laravelapp kernel: Policy zone: Normal
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKernel command line: BOOT_IMAGE=/vmlinuz-4.4.0-51-generic root=/dev/mapper/vagrant--vg-root ro quiet[0m
+Feb 15 13:13:40 laravelapp kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Feb 15 13:13:40 laravelapp kernel: Calgary: detecting Calgary via BIOS EBDA area
+Feb 15 13:13:40 laravelapp kernel: Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Feb 15 13:13:40 laravelapp kernel: Memory: 4006496K/4193848K available (8426K kernel code, 1285K rwdata, 3956K rodata, 1480K init, 1292K bss, 187352K reserved, 0K cma-reserved)
+Feb 15 13:13:40 laravelapp kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Feb 15 13:13:40 laravelapp kernel: Hierarchical RCU implementation.
+Feb 15 13:13:40 laravelapp kernel:         Build-time adjustment of leaf fanout to 64.
+Feb 15 13:13:40 laravelapp kernel:         RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=2.
+Feb 15 13:13:40 laravelapp kernel: RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=2
+Feb 15 13:13:40 laravelapp kernel: NR_IRQS:16640 nr_irqs:440 16
+Feb 15 13:13:40 laravelapp kernel: Console: colour VGA+ 80x25
+Feb 15 13:13:40 laravelapp kernel: console [tty0] enabled
+Feb 15 13:13:40 laravelapp kernel: tsc: Detected 3311.336 MHz processor
+Feb 15 13:13:40 laravelapp kernel: Calibrating delay loop (skipped) preset value.. 6622.67 BogoMIPS (lpj=13245344)
+Feb 15 13:13:40 laravelapp kernel: pid_max: default: 32768 minimum: 301
+Feb 15 13:13:40 laravelapp kernel: ACPI: Core revision 20150930
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mACPI: 2 ACPI AML tables successfully acquired and loaded[0m
+Feb 15 13:13:40 laravelapp kernel: Security Framework initialized
+Feb 15 13:13:40 laravelapp kernel: Yama: becoming mindful.
+Feb 15 13:13:40 laravelapp kernel: AppArmor: AppArmor initialized
+Feb 15 13:13:40 laravelapp kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Feb 15 13:13:40 laravelapp kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Feb 15 13:13:40 laravelapp kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 15 13:13:40 laravelapp kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys io
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys memory
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys devices
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys freezer
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys net_cls
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys perf_event
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys net_prio
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys hugetlb
+Feb 15 13:13:40 laravelapp kernel: Initializing cgroup subsys pids
+Feb 15 13:13:40 laravelapp kernel: CPU: Physical Processor ID: 0
+Feb 15 13:13:40 laravelapp kernel: CPU: Processor Core ID: 0
+Feb 15 13:13:40 laravelapp kernel: mce: CPU supports 0 MCE banks
+Feb 15 13:13:40 laravelapp kernel: Last level iTLB entries: 4KB 128, 2MB 8, 4MB 8
+Feb 15 13:13:40 laravelapp kernel: Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Feb 15 13:13:40 laravelapp kernel: Freeing SMP alternatives memory: 32K (ffffffff820b5000 - ffffffff820bd000)
+Feb 15 13:13:40 laravelapp kernel: ftrace: allocating 32053 entries in 126 pages
+Feb 15 13:13:40 laravelapp kernel: smpboot: Max logical packages: 1
+Feb 15 13:13:40 laravelapp kernel: smpboot: APIC(0) Converting physical 0 to logical package 0
+Feb 15 13:13:40 laravelapp kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Feb 15 13:13:40 laravelapp kernel: smpboot: CPU0: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz (family: 0x6, model: 0x5e, stepping: 0x3)
+Feb 15 13:13:40 laravelapp kernel: Performance Events: unsupported p6 CPU model 94 no PMU driver, software events only.
+Feb 15 13:13:40 laravelapp kernel: KVM setup paravirtual spinlock
+Feb 15 13:13:40 laravelapp kernel: x86: Booting SMP configuration:
+Feb 15 13:13:40 laravelapp kernel: .... node  #0, CPUs:      #1
+Feb 15 13:13:40 laravelapp kernel: kvm-clock: cpu 1, msr 1:1fff3041, secondary cpu clock
+Feb 15 13:13:40 laravelapp kernel: mce: CPU supports 0 MCE banks
+Feb 15 13:13:40 laravelapp kernel: x86: Booted up 1 node, 2 CPUs
+Feb 15 13:13:40 laravelapp kernel: smpboot: Total of 2 processors activated (13245.34 BogoMIPS)
+Feb 15 13:13:40 laravelapp kernel: devtmpfs: initialized
+Feb 15 13:13:40 laravelapp kernel: evm: security.selinux
+Feb 15 13:13:40 laravelapp kernel: evm: security.SMACK64
+Feb 15 13:13:40 laravelapp kernel: evm: security.SMACK64EXEC
+Feb 15 13:13:40 laravelapp kernel: evm: security.SMACK64TRANSMUTE
+Feb 15 13:13:40 laravelapp kernel: evm: security.SMACK64MMAP
+Feb 15 13:13:40 laravelapp kernel: evm: security.ima
+Feb 15 13:13:40 laravelapp kernel: evm: security.capability
+Feb 15 13:13:40 laravelapp kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Feb 15 13:13:40 laravelapp kernel: pinctrl core: initialized pinctrl subsystem
+Feb 15 13:13:40 laravelapp kernel: RTC time: 13:13:33, date: 02/15/17
+Feb 15 13:13:40 laravelapp kernel: NET: Registered protocol family 16
+Feb 15 13:13:40 laravelapp kernel: cpuidle: using governor ladder
+Feb 15 13:13:40 laravelapp kernel: cpuidle: using governor menu
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mPCCT header not found.[0m
+Feb 15 13:13:40 laravelapp kernel: ACPI: bus type PCI registered
+Feb 15 13:13:40 laravelapp kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Feb 15 13:13:40 laravelapp kernel: PCI: Using configuration type 1 for base access
+Feb 15 13:13:40 laravelapp kernel: ACPI: Added _OSI(Module Device)
+Feb 15 13:13:40 laravelapp kernel: ACPI: Added _OSI(Processor Device)
+Feb 15 13:13:40 laravelapp kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 15 13:13:40 laravelapp kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mACPI: Executed 1 blocks of module-level executable AML code[0m
+Feb 15 13:13:40 laravelapp kernel: ACPI: Interpreter enabled
+Feb 15 13:13:40 laravelapp kernel: ACPI: (supports S0 S5)
+Feb 15 13:13:40 laravelapp kernel: ACPI: Using IOAPIC for interrupt routing
+Feb 15 13:13:40 laravelapp kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Feb 15 13:13:40 laravelapp kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Feb 15 13:13:40 laravelapp kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Feb 15 13:13:40 laravelapp kernel: acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Feb 15 13:13:40 laravelapp kernel: [0;1;39macpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.[0m
+Feb 15 13:13:40 laravelapp kernel: PCI host bridge to bus 0000:00
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: root bus resource [mem 0xe0000000-0xffdfffff window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe07fffff pref]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:08.0: [8086:100e] type 00 class 0x020000
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:08.0: reg 0x10: [mem 0xf0820000-0xf083ffff]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:08.0: reg 0x18: [io  0xd240-0xd247]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:0d.0: reg 0x10: [io  0xd248-0xd24f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:0d.0: reg 0x18: [io  0xd258-0xd25f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:0d.0: reg 0x20: [io  0xd270-0xd27f]
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:0d.0: reg 0x24: [mem 0xf0840000-0xf0841fff]
+Feb 15 13:13:40 laravelapp kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Feb 15 13:13:40 laravelapp kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Feb 15 13:13:40 laravelapp kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Feb 15 13:13:40 laravelapp kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mACPI: Enabled 2 GPEs in block 00 to 07[0m
+Feb 15 13:13:40 laravelapp kernel: vgaarb: setting as boot device: PCI:0000:00:02.0
+Feb 15 13:13:40 laravelapp kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Feb 15 13:13:40 laravelapp kernel: vgaarb: loaded
+Feb 15 13:13:40 laravelapp kernel: vgaarb: bridge control possible 0000:00:02.0
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mSCSI subsystem initialized[0m
+Feb 15 13:13:40 laravelapp kernel: libata version 3.00 loaded.
+Feb 15 13:13:40 laravelapp kernel: ACPI: bus type USB registered
+Feb 15 13:13:40 laravelapp kernel: usbcore: registered new interface driver usbfs
+Feb 15 13:13:40 laravelapp kernel: usbcore: registered new interface driver hub
+Feb 15 13:13:40 laravelapp kernel: usbcore: registered new device driver usb
+Feb 15 13:13:40 laravelapp kernel: PCI: Using ACPI for IRQ routing
+Feb 15 13:13:40 laravelapp kernel: PCI: pci_cache_line_size set to 64 bytes
+Feb 15 13:13:40 laravelapp kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb 15 13:13:40 laravelapp kernel: e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Feb 15 13:13:40 laravelapp kernel: NetLabel: Initializing
+Feb 15 13:13:40 laravelapp kernel: NetLabel:  domain hash size = 128
+Feb 15 13:13:40 laravelapp kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Feb 15 13:13:40 laravelapp kernel: NetLabel:  unlabeled traffic allowed by default
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mamd_nb: Cannot enumerate AMD northbridges[0m
+Feb 15 13:13:40 laravelapp kernel: clocksource: Switched to clocksource kvm-clock
+Feb 15 13:13:40 laravelapp kernel: AppArmor: AppArmor Filesystem Enabled
+Feb 15 13:13:40 laravelapp kernel: pnp: PnP ACPI init
+Feb 15 13:13:40 laravelapp kernel: pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb 15 13:13:40 laravelapp kernel: pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Feb 15 13:13:40 laravelapp kernel: pnp: PnP ACPI: found 2 devices
+Feb 15 13:13:40 laravelapp kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb 15 13:13:40 laravelapp kernel: pci_bus 0000:00: resource 7 [mem 0xe0000000-0xffdfffff window]
+Feb 15 13:13:40 laravelapp kernel: NET: Registered protocol family 2
+Feb 15 13:13:40 laravelapp kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Feb 15 13:13:40 laravelapp kernel: TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Feb 15 13:13:40 laravelapp kernel: TCP: Hash tables configured (established 32768 bind 32768)
+Feb 15 13:13:40 laravelapp kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Feb 15 13:13:40 laravelapp kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Feb 15 13:13:40 laravelapp kernel: NET: Registered protocol family 1
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Feb 15 13:13:40 laravelapp kernel: pci 0000:00:02.0: Video device with shadowed ROM
+Feb 15 13:13:40 laravelapp kernel: PCI: CLS 0 bytes, default 64
+Feb 15 13:13:40 laravelapp kernel: Trying to unpack rootfs image as initramfs...
+Feb 15 13:13:40 laravelapp kernel: Freeing initrd memory: 36648K (ffff88003385c000 - ffff880035c26000)
+Feb 15 13:13:40 laravelapp kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Feb 15 13:13:40 laravelapp kernel: software IO TLB [mem 0xdbff0000-0xdfff0000] (64MB) mapped at [ffff8800dbff0000-ffff8800dffeffff]
+Feb 15 13:13:40 laravelapp kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Feb 15 13:13:40 laravelapp kernel: Scanning for low memory corruption every 60 seconds
+Feb 15 13:13:40 laravelapp kernel: futex hash table entries: 512 (order: 3, 32768 bytes)
+Feb 15 13:13:40 laravelapp kernel: audit: initializing netlink subsys (disabled)
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=2000 audit(1487164418.624:1): initialized[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mInitialise system trusted keyring[0m
+Feb 15 13:13:40 laravelapp kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Feb 15 13:13:40 laravelapp kernel: zbud: loaded
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mVFS: Disk quotas dquot_6.6.0[0m
+Feb 15 13:13:40 laravelapp kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Feb 15 13:13:40 laravelapp kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Feb 15 13:13:40 laravelapp kernel: fuse init (API version 7.23)
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKey type big_key registered[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mAllocating IMA MOK and blacklist keyrings.[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKey type asymmetric registered[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mAsymmetric key parser 'x509' registered[0m
+Feb 15 13:13:40 laravelapp kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+Feb 15 13:13:40 laravelapp kernel: io scheduler noop registered
+Feb 15 13:13:40 laravelapp kernel: io scheduler deadline registered (default)
+Feb 15 13:13:40 laravelapp kernel: io scheduler cfq registered
+Feb 15 13:13:40 laravelapp kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Feb 15 13:13:40 laravelapp kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Feb 15 13:13:40 laravelapp kernel: intel_idle: does not run on family 6 model 94
+Feb 15 13:13:40 laravelapp kernel: ACPI: AC Adapter [AC] (on-line)
+Feb 15 13:13:40 laravelapp kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Feb 15 13:13:40 laravelapp kernel: ACPI: Power Button [PWRF]
+Feb 15 13:13:40 laravelapp kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Feb 15 13:13:40 laravelapp kernel: ACPI: Sleep Button [SLPF]
+Feb 15 13:13:40 laravelapp kernel: GHES: HEST is not enabled!
+Feb 15 13:13:40 laravelapp kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Feb 15 13:13:40 laravelapp kernel: Linux agpgart interface v0.103
+Feb 15 13:13:40 laravelapp kernel: brd: module loaded
+Feb 15 13:13:40 laravelapp kernel: loop: module loaded
+Feb 15 13:13:40 laravelapp kernel: ata_piix 0000:00:01.1: version 2.13
+Feb 15 13:13:40 laravelapp kernel: scsi host0: ata_piix
+Feb 15 13:13:40 laravelapp kernel: scsi host1: ata_piix
+Feb 15 13:13:40 laravelapp kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Feb 15 13:13:40 laravelapp kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Feb 15 13:13:40 laravelapp kernel: libphy: Fixed MDIO Bus: probed
+Feb 15 13:13:40 laravelapp kernel: tun: Universal TUN/TAP device driver, 1.6
+Feb 15 13:13:40 laravelapp kernel: tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Feb 15 13:13:40 laravelapp kernel: PPP generic driver version 2.4.2
+Feb 15 13:13:40 laravelapp kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 15 13:13:40 laravelapp kernel: ehci-pci: EHCI PCI platform driver
+Feb 15 13:13:40 laravelapp kernel: ehci-platform: EHCI generic platform driver
+Feb 15 13:13:40 laravelapp kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 15 13:13:40 laravelapp kernel: ohci-pci: OHCI PCI platform driver
+Feb 15 13:13:40 laravelapp kernel: ohci-platform: OHCI generic platform driver
+Feb 15 13:13:40 laravelapp kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Feb 15 13:13:40 laravelapp kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Feb 15 13:13:40 laravelapp kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Feb 15 13:13:40 laravelapp kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Feb 15 13:13:40 laravelapp kernel: mousedev: PS/2 mouse device common for all mice
+Feb 15 13:13:40 laravelapp kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Feb 15 13:13:40 laravelapp kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Feb 15 13:13:40 laravelapp kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Feb 15 13:13:40 laravelapp kernel: i2c /dev entries driver
+Feb 15 13:13:40 laravelapp kernel: device-mapper: uevent: version 1.0.3
+Feb 15 13:13:40 laravelapp kernel: device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com
+Feb 15 13:13:40 laravelapp kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Feb 15 13:13:40 laravelapp kernel: NET: Registered protocol family 10
+Feb 15 13:13:40 laravelapp kernel: NET: Registered protocol family 17
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKey type dns_resolver registered[0m
+Feb 15 13:13:40 laravelapp kernel: microcode: CPU0 sig=0x506e3, pf=0x40, revision=0x0
+Feb 15 13:13:40 laravelapp kernel: microcode: CPU1 sig=0x506e3, pf=0x40, revision=0x0
+Feb 15 13:13:40 laravelapp kernel: microcode: Microcode Update Driver: v2.01 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Feb 15 13:13:40 laravelapp kernel: registered taskstats version 1
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mLoading compiled-in X.509 certificates[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mLoaded X.509 cert 'Build time autogenerated kernel key: 56603c66c9a77e946feb1e966c217ab15f551179'[0m
+Feb 15 13:13:40 laravelapp kernel: zswap: loaded using pool lzo/zbud
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKey type trusted registered[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mKey type encrypted registered[0m
+Feb 15 13:13:40 laravelapp kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Feb 15 13:13:40 laravelapp kernel: ima: No TPM chip found, activating TPM-bypass!
+Feb 15 13:13:40 laravelapp kernel: evm: HMAC attrs: 0x1
+Feb 15 13:13:40 laravelapp kernel:   Magic number: 5:647:230
+Feb 15 13:13:40 laravelapp kernel: rtc_cmos rtc_cmos: setting system clock to 2017-02-15 13:13:34 UTC (1487164414)
+Feb 15 13:13:40 laravelapp kernel: BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Feb 15 13:13:40 laravelapp kernel: EDD information not available.
+Feb 15 13:13:40 laravelapp kernel: PM: Hibernation image not present or could not be loaded.
+Feb 15 13:13:40 laravelapp kernel: Freeing unused kernel memory: 1480K (ffffffff81f43000 - ffffffff820b5000)
+Feb 15 13:13:40 laravelapp kernel: Write protecting the kernel read-only data: 14336k
+Feb 15 13:13:40 laravelapp kernel: Freeing unused kernel memory: 1800K (ffff88000183e000 - ffff880001a00000)
+Feb 15 13:13:40 laravelapp kernel: Freeing unused kernel memory: 140K (ffff880001ddd000 - ffff880001e00000)
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: udevadm: uninitialized urandom read (16 bytes read, 1 bits of entropy available)[0m
+Feb 15 13:13:40 laravelapp kernel: ahci 0000:00:0d.0: version 3.0
+Feb 15 13:13:40 laravelapp kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Feb 15 13:13:40 laravelapp kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Feb 15 13:13:40 laravelapp kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 15 13:13:40 laravelapp kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Feb 15 13:13:40 laravelapp kernel: FUJITSU Extended Socket Network Device Driver - version 1.0 - Copyright (c) 2015 FUJITSU LIMITED
+Feb 15 13:13:40 laravelapp kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Feb 15 13:13:40 laravelapp kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Feb 15 13:13:40 laravelapp kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Feb 15 13:13:40 laravelapp kernel: scsi host2: ahci
+Feb 15 13:13:40 laravelapp kernel: ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Feb 15 13:13:40 laravelapp kernel: AVX version of gcm_enc/dec engaged.
+Feb 15 13:13:40 laravelapp kernel: AES CTR mode by8 optimization enabled
+Feb 15 13:13:40 laravelapp kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Feb 15 13:13:40 laravelapp kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Feb 15 13:13:40 laravelapp kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Feb 15 13:13:40 laravelapp kernel: ata3.00: 83886080 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Feb 15 13:13:40 laravelapp kernel: ata3.00: configured for UDMA/133
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mscsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39msd 2:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39msd 2:0:0:0: [sda] Write Protect is off[0m
+Feb 15 13:13:40 laravelapp kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Feb 15 13:13:40 laravelapp kernel: [0;1;39msd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39msd 2:0:0:0: Attached scsi generic sg0 type 0[0m
+Feb 15 13:13:40 laravelapp kernel:  sda: sda1 sda2 < sda5 >
+Feb 15 13:13:40 laravelapp kernel: [0;1;39msd 2:0:0:0: [sda] Attached SCSI disk[0m
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:c3:0a:85
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:c9:15:eb
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:08.0 enp0s8: renamed from eth1
+Feb 15 13:13:40 laravelapp kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Feb 15 13:13:40 laravelapp kernel: tsc: Refined TSC clocksource calibration: 3307.305 MHz
+Feb 15 13:13:40 laravelapp kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2fac40ce340, max_idle_ns: 440795265456 ns
+Feb 15 13:13:40 laravelapp kernel: floppy0: no floppy controllers found
+Feb 15 13:13:40 laravelapp kernel: md: linear personality registered for level -1
+Feb 15 13:13:40 laravelapp kernel: md: multipath personality registered for level -4
+Feb 15 13:13:40 laravelapp kernel: md: raid0 personality registered for level 0
+Feb 15 13:13:40 laravelapp kernel: md: raid1 personality registered for level 1
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x1   gen()  9517 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x1   xor()  6843 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x2   gen() 12544 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x2   xor()  8533 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x4   gen() 13078 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: sse2x4   xor() 10017 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: using algorithm sse2x4 gen() 13078 MB/s
+Feb 15 13:13:40 laravelapp kernel: raid6: .... xor() 10017 MB/s, rmw enabled
+Feb 15 13:13:40 laravelapp kernel: raid6: using ssse3x2 recovery algorithm
+Feb 15 13:13:40 laravelapp kernel: xor: automatically using best checksumming function:
+Feb 15 13:13:40 laravelapp kernel:    avx       : 21916.000 MB/sec
+Feb 15 13:13:40 laravelapp kernel: async_tx: api initialized (async)
+Feb 15 13:13:40 laravelapp kernel: md: raid6 personality registered for level 6
+Feb 15 13:13:40 laravelapp kernel: md: raid5 personality registered for level 5
+Feb 15 13:13:40 laravelapp kernel: md: raid4 personality registered for level 4
+Feb 15 13:13:40 laravelapp kernel: md: raid10 personality registered for level 10
+Feb 15 13:13:40 laravelapp kernel: Btrfs loaded
+Feb 15 13:13:40 laravelapp kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Feb 15 13:13:40 laravelapp systemd[1]: systemd 229 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN)
+Feb 15 13:13:40 laravelapp systemd[1]: Detected virtualization oracle.
+Feb 15 13:13:40 laravelapp systemd[1]: Detected architecture x86-64.
+Feb 15 13:13:40 laravelapp systemd[1]: Set hostname to <laravelapp>.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on udev Control Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Syslog Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target User and Group Name Lookups.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Journal Audit Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Journal Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on LVM2 poll daemon socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Encrypted Volumes.
+Feb 15 13:13:40 laravelapp systemd[1]: Created slice User and Session Slice.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on udev Kernel Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Created slice System Slice.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Set console keymap...
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Slices.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Load Kernel Modules...
+Feb 15 13:13:40 laravelapp systemd[1]: Created slice system-postgresql.slice.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting Huge Pages File System...
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Uncomplicated firewall...
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Nameserver information manager...
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting Debug File System...
+Feb 15 13:13:40 laravelapp systemd[1]: Created slice system-systemd\x2dfsck.slice.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Journal Socket (/dev/log).
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Journal Service...
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on LVM2 metadata daemon socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting POSIX Message Queue File System...
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on fsck to fsckd communication Socket.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Remount Root and Kernel File Systems...
+Feb 15 13:13:40 laravelapp systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting RPC Pipe File System...
+Feb 15 13:13:40 laravelapp systemd[1]: Started Uncomplicated firewall.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Create list of required static device nodes for the current kernel.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted Huge Pages File System.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted POSIX Message Queue File System.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted Debug File System.
+Feb 15 13:13:40 laravelapp kernel: EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Feb 15 13:13:40 laravelapp systemd[1]: Started Remount Root and Kernel File Systems.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Nameserver information manager.
+Feb 15 13:13:40 laravelapp kernel: Loading iSCSI transport class v2.0-870.
+Feb 15 13:13:40 laravelapp kernel: RPC: Registered named UNIX socket transport module.
+Feb 15 13:13:40 laravelapp kernel: RPC: Registered udp transport module.
+Feb 15 13:13:40 laravelapp kernel: RPC: Registered tcp transport module.
+Feb 15 13:13:40 laravelapp kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted RPC Pipe File System.
+Feb 15 13:13:40 laravelapp systemd-journald[404]: Journal started
+-- Subject: The journal has been started
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system journal process has started up, opened the journal
+-- files for writing and is now ready to process requests.
+Feb 15 13:13:40 laravelapp kernel: [0;1;39miscsi: registered transport (tcp)[0m
+Feb 15 13:13:40 laravelapp systemd[1]: Started LVM2 metadata daemon.
+Feb 15 13:13:40 laravelapp systemd-modules-load[393]: Inserted module 'iscsi_tcp'
+Feb 15 13:13:40 laravelapp loadkeys[391]: Loading /etc/console-setup/cached.kmap.gz
+Feb 15 13:13:40 laravelapp systemd[1]: Starting udev Coldplug all Devices...
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Load/Save Random Seed...
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Create Static Device Nodes in /dev...
+Feb 15 13:13:40 laravelapp systemd[1]: Started Journal Service.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Set console keymap.
+-- Subject: Unit keyboard-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit keyboard-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp kernel: [0;1;39miscsi: registered transport (iser)[0m
+Feb 15 13:13:40 laravelapp systemd-modules-load[393]: Inserted module 'ib_iser'
+Feb 15 13:13:40 laravelapp systemd[1]: Started Load Kernel Modules.
+-- Subject: Unit systemd-modules-load.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-modules-load.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Apply Kernel Variables...
+-- Subject: Unit systemd-sysctl.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting FUSE Control File System...
+-- Subject: Unit sys-fs-fuse-connections.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started udev Coldplug all Devices.
+-- Subject: Unit systemd-udev-trigger.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-trigger.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+-- Subject: Unit systemd-ask-password-console.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-ask-password-console.path has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp kernel: [0;1;31mpiix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mvboxguest: module verification failed: signature and/or required key missing - tainting kernel[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mvgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds[0m
+Feb 15 13:13:40 laravelapp kernel: input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input6
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mvboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)[0m
+Feb 15 13:13:40 laravelapp kernel: vboxguest: Successfully loaded version 5.1.10 (interface 0x00010004)
+Feb 15 13:13:40 laravelapp kernel: [drm] Initialized drm 1.1.0 20060810
+Feb 15 13:13:40 laravelapp kernel: snd_intel8x0 0000:00:05.0: disable (unknown or VT-d) VM optimization
+Feb 15 13:13:40 laravelapp kernel: [0;1;31mintel_rapl: no valid rapl domains found in package 0[0m
+Feb 15 13:13:40 laravelapp systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+-- Subject: Unit sys-subsystem-net-devices-enp0s3.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-subsystem-net-devices-enp0s3.device has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Found device 82540EM Gigabit Ethernet Controller (PRO/1000 MT Desktop Adapter).
+-- Subject: Unit sys-subsystem-net-devices-enp0s8.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-subsystem-net-devices-enp0s8.device has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd-udevd[503]: [0;1;39mProcess '/lib/udev/hdparm' failed with exit code 5.[0m
+Feb 15 13:13:40 laravelapp systemd[1]: Found device VBOX_HARDDISK 1.
+-- Subject: Unit dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.device has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+-- Subject: Unit systemd-rfkill.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp lvm[405]:   2 logical volume(s) in volume group "vagrant-vg" monitored
+Feb 15 13:13:40 laravelapp systemd[1]: Started Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+-- Subject: Unit lvm2-monitor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lvm2-monitor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting File System Check on /dev/disk/by-uuid/c7de8013-2418-45a5-bda5-0023073bac35...
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started File System Check Daemon to report status.
+-- Subject: Unit systemd-fsckd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsckd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd-fsck[734]: /dev/sda1: clean, 303/124928 files, 73976/498688 blocks
+Feb 15 13:13:40 laravelapp systemd[1]: Started File System Check on /dev/disk/by-uuid/c7de8013-2418-45a5-bda5-0023073bac35.
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-c7de8013\x2d2418\x2d45a5\x2dbda5\x2d0023073bac35.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounting /boot...
+-- Subject: Unit boot.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot.mount has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Mounted /boot.
+-- Subject: Unit boot.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Preprocess NFS configuration...
+-- Subject: Unit nfs-config.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nfs-config.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: Unit plymouth-read-write.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting LSB: AppArmor initialization...
+-- Subject: Unit apparmor.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Set console font and keymap...
+-- Subject: Unit console-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd-tmpfiles[791]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+Feb 15 13:13:40 laravelapp systemd[1]: Started Preprocess NFS configuration.
+-- Subject: Unit nfs-config.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nfs-config.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target NFS client services.
+-- Subject: Unit nfs-client.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nfs-client.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp kernel: [0;1;39mrandom: nonblocking pool is initialized[0m
+Feb 15 13:13:40 laravelapp kernel: EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+Feb 15 13:13:40 laravelapp kernel: EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+Feb 15 13:13:40 laravelapp apparmor[789]:  * Starting AppArmor profiles
+Feb 15 13:13:40 laravelapp systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Unit plymouth-read-write.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target System Time Synchronized.
+-- Subject: Unit time-sync.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit time-sync.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 64203 usecs (12319 samples)
+Feb 15 13:13:40 laravelapp kernel: snd_intel8x0 0000:00:05.0: measured clock 191875 rejected
+Feb 15 13:13:40 laravelapp kernel: ppdev: user-space parallel port driver
+Feb 15 13:13:40 laravelapp audit[881]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=881 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[881]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=881 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[881]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=881 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[881]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=881 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp systemd[1]: Found device /dev/mapper/vagrant--vg-swap_1.
+-- Subject: Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.device has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp audit[884]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=884 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp systemd[1]: Activating swap /dev/mapper/vagrant--vg-swap_1...
+-- Subject: Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.swap has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.swap has begun starting up.
+Feb 15 13:13:40 laravelapp audit[882]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=882 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[882]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=882 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[882]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=882 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[882]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=882 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[886]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=886 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[889]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/mysqld" pid=889 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp systemd[1]: Activated swap /dev/mapper/vagrant--vg-swap_1.
+-- Subject: Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.swap has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-mapper-vagrant\x2d\x2dvg\x2dswap_1.swap has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Swap.
+-- Subject: Unit swap.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit swap.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp audit[888]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=888 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp audit[888]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=888 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp apparmor[789]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.800:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=881 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.800:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=881 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.800:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=881 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.800:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=881 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.808:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=884 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.816:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=882 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.816:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=882 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.816:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=882 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.816:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=882 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164420.816:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=886 comm="apparmor_parser"[0m
+Feb 15 13:13:40 laravelapp kernel: Adding 1048572k swap on /dev/mapper/vagrant--vg-swap_1.  Priority:-1 extents:1 across:1048572k FS
+Feb 15 13:13:40 laravelapp audit[892]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=892 comm="apparmor_parser"
+Feb 15 13:13:40 laravelapp apparmor[789]:    ...done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started LSB: AppArmor initialization.
+-- Subject: Unit apparmor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started ifup for enp0s8.
+-- Subject: Unit ifup@enp0s8.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ifup@enp0s8.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Clean PHP session files every 30 mins.
+-- Subject: Unit phpsessionclean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit phpsessionclean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: snapd.refresh.timer: Adding 5h 24min 726.019ms random time.
+Feb 15 13:13:40 laravelapp systemd[1]: snapd.refresh.timer: Adding 1h 29min 3.916643s random time.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Timer to automatically refresh installed snaps.
+-- Subject: Unit snapd.refresh.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.refresh.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started ACPI Events Check.
+-- Subject: Unit acpid.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.path has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on ACPID Listen Socket.
+-- Subject: Unit acpid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on RPCbind Server Activation Socket.
+-- Subject: Unit rpcbind.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rpcbind.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on UUID daemon activation socket.
+-- Subject: Unit uuidd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit uuidd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Trigger resolvconf update for networkd DNS.
+-- Subject: Unit systemd-networkd-resolvconf-update.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-networkd-resolvconf-update.path has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: apt-daily.timer: Adding 20min 18.244112s random time.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Daily apt activities.
+-- Subject: Unit apt-daily.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.timer has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting LXD - unix socket.
+-- Subject: Unit lxd.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxd.socket has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Raise network interfaces...
+-- Subject: Unit networking.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started ifup for enp0s3.
+-- Subject: Unit ifup@enp0s3.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ifup@enp0s3.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Listening on LXD - unix socket.
+-- Subject: Unit lxd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting vboxadd.service...
+-- Subject: Unit vboxadd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting LSB: Record successful boot for GRUB...
+-- Subject: Unit grub-common.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting LXD - container startup/shutdown...
+-- Subject: Unit lxd-containers.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxd-containers.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting vboxadd-x11.service...
+-- Subject: Unit vboxadd-x11.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd-x11.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Deferred execution scheduler.
+-- Subject: Unit atd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit atd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Regular background program processing daemon.
+-- Subject: Unit cron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cron.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started FUSE filesystem for LXC.
+-- Subject: Unit lxcfs.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxcfs.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp cron[930]: (CRON) INFO (pidfile fd = 3)
+Feb 15 13:13:40 laravelapp cron[930]: (CRON) INFO (Running @reboot jobs)
+Feb 15 13:13:40 laravelapp lxcfs[932]: hierarchies:
+Feb 15 13:13:40 laravelapp lxcfs[932]:   0: fd:   5: freezer
+Feb 15 13:13:40 laravelapp lxcfs[932]:   1: fd:   6: blkio
+Feb 15 13:13:40 laravelapp lxcfs[932]:   2: fd:   7: hugetlb
+Feb 15 13:13:40 laravelapp lxcfs[932]:   3: fd:   8: cpu,cpuacct
+Feb 15 13:13:40 laravelapp lxcfs[932]:   4: fd:   9: cpuset
+Feb 15 13:13:40 laravelapp lxcfs[932]:   5: fd:  10: perf_event
+Feb 15 13:13:40 laravelapp lxcfs[932]:   6: fd:  11: memory
+Feb 15 13:13:40 laravelapp lxcfs[932]:   7: fd:  12: pids
+Feb 15 13:13:40 laravelapp lxcfs[932]:   8: fd:  13: net_cls,net_prio
+Feb 15 13:13:40 laravelapp lxcfs[932]:   9: fd:  14: devices
+Feb 15 13:13:40 laravelapp lxcfs[932]:  10: fd:  15: name=systemd
+Feb 15 13:13:40 laravelapp dbus[934]: [0;1;39m[system] AppArmor D-Bus mediation is enabled[0m
+Feb 15 13:13:40 laravelapp systemd[1]: Starting PostgreSQL Cluster 9.5-main...
+-- Subject: Unit postgresql@9.5-main.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql@9.5-main.service has begun starting up.
+Feb 15 13:13:40 laravelapp acpid[911]: starting up with netlink and the input layer
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Accounts Service...
+-- Subject: Unit accounts-daemon.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting LSB: MD monitoring daemon...
+-- Subject: Unit mdadm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdadm.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting System Logging Service...
+-- Subject: Unit rsyslog.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has begun starting up.
+Feb 15 13:13:40 laravelapp systemd[1]: Started Snappy daemon.
+-- Subject: Unit snapd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Starting Auto import assertions from block devices...
+-- Subject: Unit snapd.autoimport.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.autoimport.service has begun starting up.
+Feb 15 13:13:40 laravelapp acpid[911]: 1 rule loaded
+Feb 15 13:13:40 laravelapp acpid[911]: waiting for events: event logging is off
+Feb 15 13:13:40 laravelapp systemd[1]: Started LXD - container startup/shutdown.
+-- Subject: Unit lxd-containers.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lxd-containers.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp snap[992]: auto-import is disabled on classic
+Feb 15 13:13:40 laravelapp systemd[1]: Started Auto import assertions from block devices.
+-- Subject: Unit snapd.autoimport.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.autoimport.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp systemd[1]: Started LSB: Record successful boot for GRUB.
+-- Subject: Unit grub-common.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:40 laravelapp dbus[934]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'[0m
+Feb 15 13:13:40 laravelapp systemd-logind[926]: Watching system buttons on /dev/input/event0 (Power Button)
+Feb 15 13:13:40 laravelapp systemd-logind[926]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Feb 15 13:13:40 laravelapp systemd-logind[926]: Watching system buttons on /dev/input/event3 (Video Bus)
+Feb 15 13:13:40 laravelapp systemd-logind[926]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+Feb 15 13:13:40 laravelapp mdadm[986]:  * Starting MD monitoring service mdadm --monitor
+Feb 15 13:13:40 laravelapp systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp kernel: [0;1;39mcgroup: new mount options do not match the existing superblock, will be ignored[0m
+Feb 15 13:13:41 laravelapp kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 15 13:13:41 laravelapp kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 15 13:13:41 laravelapp kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Feb 15 13:13:41 laravelapp mdadm[986]:    ...done.
+Feb 15 13:13:41 laravelapp systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+-- Subject: Unit polkitd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has begun starting up.
+Feb 15 13:13:41 laravelapp systemd[1]: Started System Logging Service.
+-- Subject: Unit rsyslog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp systemd[1]: Started LSB: MD monitoring daemon.
+-- Subject: Unit mdadm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mdadm.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp polkitd[1027]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Feb 15 13:13:41 laravelapp dbus[934]: [0;1;39m[system] Successfully activated service 'org.freedesktop.PolicyKit1'[0m
+Feb 15 13:13:41 laravelapp systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+-- Subject: Unit polkitd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp accounts-daemon[985]: started daemon version 0.6.40
+Feb 15 13:13:41 laravelapp systemd[1]: Started Accounts Service.
+-- Subject: Unit accounts-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp /usr/lib/snapd/snapd[990]: daemon.go:250: DEBUG: init done in 631.72µs
+Feb 15 13:13:41 laravelapp /usr/lib/snapd/snapd[990]: daemon.go:251: started snapd/2.21 (series 16; classic) ubuntu/16.04 (amd64).
+Feb 15 13:13:41 laravelapp snapd[990]: 2017/02/15 13:13:41.083196 daemon.go:251: started snapd/2.21 (series 16; classic) ubuntu/16.04 (amd64).
+Feb 15 13:13:41 laravelapp kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 59890 usecs (12311 samples)
+Feb 15 13:13:41 laravelapp kernel: snd_intel8x0 0000:00:05.0: measured clock 205560 rejected
+Feb 15 13:13:41 laravelapp systemd[1]: Started vboxadd-x11.service.
+-- Subject: Unit vboxadd-x11.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd-x11.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp vboxadd[913]: vboxadd.sh: Starting the VirtualBox Guest Additions.
+Feb 15 13:13:41 laravelapp vboxadd.sh[1099]: [0;1;39mStarting the VirtualBox Guest Additions.[0m
+Feb 15 13:13:41 laravelapp kernel: vboxsf: Successfully loaded version 5.1.10 (interface 0x00010004)
+Feb 15 13:13:41 laravelapp systemd[1]: Started Set console font and keymap.
+-- Subject: Unit console-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp systemd[1]: Created slice system-getty.slice.
+-- Subject: Unit system-getty.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit system-getty.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 59039 usecs (12111 samples)
+Feb 15 13:13:41 laravelapp kernel: snd_intel8x0 0000:00:05.0: measured clock 205135 rejected
+Feb 15 13:13:41 laravelapp kernel: snd_intel8x0 0000:00:05.0: clocking to 48000
+Feb 15 13:13:41 laravelapp kernel: [drm] VRAM 00800000
+Feb 15 13:13:41 laravelapp kernel: [TTM] Zone  kernel: Available graphics memory: 2023298 kiB
+Feb 15 13:13:41 laravelapp kernel: [TTM] Initializing pool allocator
+Feb 15 13:13:41 laravelapp kernel: [TTM] Initializing DMA pool allocator
+Feb 15 13:13:41 laravelapp kernel: fbcon: vboxdrmfb (fb0) is primary device
+Feb 15 13:13:41 laravelapp systemd[1]: Reached target Sound Card.
+-- Subject: Unit sound.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sound.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp kernel: Console: switching to colour frame buffer device 100x37
+Feb 15 13:13:41 laravelapp kernel: vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Feb 15 13:13:41 laravelapp kernel: [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Feb 15 13:13:41 laravelapp vboxadd-x11.sh[1164]: [0;1;39mInstalling the Window System drivers.[0m
+Feb 15 13:13:41 laravelapp vboxadd[913]: Could not find the X.Org or XFree86 Window System, skipping.
+Feb 15 13:13:41 laravelapp vboxadd.sh[1171]: [0;1;39m.[0m
+Feb 15 13:13:41 laravelapp systemd[1]: Started vboxadd.service.
+-- Subject: Unit vboxadd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:41 laravelapp systemd[1]: Starting vboxadd-service.service...
+-- Subject: Unit vboxadd-service.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd-service.service has begun starting up.
+Feb 15 13:13:41 laravelapp vboxadd-service[1173]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Feb 15 13:13:41 laravelapp vboxadd-service.sh[1177]: [0;1;39mStarting VirtualBox Guest Addition service.[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39mVBoxService 5.1.10 r112026 (verbosity: 0) linux.amd64 (Nov 21 2016 17:44:44) release log[0m
+                                   [0;1;39m00:00:00.000143 main     Log opened 2017-02-15T13:13:41.573298000Z[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39m00:00:00.000210 main     OS Product: Linux[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39m00:00:00.000224 main     OS Release: 4.4.0-51-generic[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39m00:00:00.000236 main     OS Version: #72-Ubuntu SMP Thu Nov 24 18:29:54 UTC 2016[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39m00:00:00.000247 main     Executable: /opt/VBoxGuestAdditions-5.1.10/sbin/VBoxService[0m
+                                   [0;1;39m00:00:00.000247 main     Process ID: 1180[0m
+                                   [0;1;39m00:00:00.000248 main     Package type: LINUX_64BITS_GENERIC[0m
+Feb 15 13:13:41 laravelapp kernel: [0;1;39m00:00:00.000833 main     5.1.10 r112026 started. Verbose level = 0[0m
+Feb 15 13:13:41 laravelapp vboxadd-service.sh[1184]: [0;1;39mVirtualBox Guest Addition service started.[0m
+Feb 15 13:13:41 laravelapp systemd[1]: Started vboxadd-service.service.
+-- Subject: Unit vboxadd-service.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit vboxadd-service.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:42 laravelapp dhclient[1207]: Internet Systems Consortium DHCP Client 4.3.3
+Feb 15 13:13:42 laravelapp sh[905]: Internet Systems Consortium DHCP Client 4.3.3
+Feb 15 13:13:42 laravelapp sh[905]: Copyright 2004-2015 Internet Systems Consortium.
+Feb 15 13:13:42 laravelapp sh[905]: All rights reserved.
+Feb 15 13:13:42 laravelapp sh[905]: For info, please visit https://www.isc.org/software/dhcp/
+Feb 15 13:13:42 laravelapp dhclient[1207]: Copyright 2004-2015 Internet Systems Consortium.
+Feb 15 13:13:42 laravelapp dhclient[1207]: All rights reserved.
+Feb 15 13:13:42 laravelapp dhclient[1207]: For info, please visit https://www.isc.org/software/dhcp/
+Feb 15 13:13:42 laravelapp dhclient[1207]: 
+Feb 15 13:13:42 laravelapp kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 15 13:13:42 laravelapp dhclient[1207]: Listening on LPF/enp0s3/08:00:27:c3:0a:85
+Feb 15 13:13:42 laravelapp sh[905]: Listening on LPF/enp0s3/08:00:27:c3:0a:85
+Feb 15 13:13:42 laravelapp sh[905]: Sending on   LPF/enp0s3/08:00:27:c3:0a:85
+Feb 15 13:13:42 laravelapp sh[905]: Sending on   Socket/fallback
+Feb 15 13:13:42 laravelapp sh[905]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x567cc7b)
+Feb 15 13:13:42 laravelapp dhclient[1207]: Sending on   LPF/enp0s3/08:00:27:c3:0a:85
+Feb 15 13:13:42 laravelapp sh[905]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x7bcc6705)
+Feb 15 13:13:42 laravelapp sh[905]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Feb 15 13:13:42 laravelapp sh[905]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Feb 15 13:13:42 laravelapp dhclient[1207]: Sending on   Socket/fallback
+Feb 15 13:13:42 laravelapp dhclient[1207]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 3 (xid=0x567cc7b)
+Feb 15 13:13:42 laravelapp dhclient[1207]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x7bcc6705)
+Feb 15 13:13:42 laravelapp dhclient[1207]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Feb 15 13:13:42 laravelapp dhclient[1207]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Feb 15 13:13:42 laravelapp dhclient[1207]: bound to 10.0.2.15 -- renewal in 34419 seconds.
+Feb 15 13:13:42 laravelapp sh[905]: bound to 10.0.2.15 -- renewal in 34419 seconds.
+Feb 15 13:13:43 laravelapp systemd[1]: Started PostgreSQL Cluster 9.5-main.
+-- Subject: Unit postgresql@9.5-main.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql@9.5-main.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting PostgreSQL RDBMS...
+-- Subject: Unit postgresql.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started PostgreSQL RDBMS.
+-- Subject: Unit postgresql.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit postgresql.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp kernel: floppy0: no floppy controllers found
+Feb 15 13:13:43 laravelapp kernel: work still pending
+Feb 15 13:13:43 laravelapp systemd[1]: Started Raise network interfaces.
+-- Subject: Unit networking.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting A high performance web server and a reverse proxy server...
+-- Subject: Unit nginx.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started memcached daemon.
+-- Subject: Unit memcached.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit memcached.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting MariaDB database server...
+-- Subject: Unit mariadb.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mariadb.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting The PHP 7.1 FastCGI Process Manager...
+-- Subject: Unit php7.1-fpm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit php7.1-fpm.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Supervisor process control system for UNIX.
+-- Subject: Unit supervisor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit supervisor.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Simple, fast work queue.
+-- Subject: Unit beanstalkd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit beanstalkd.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting OpenBSD Secure Shell server...
+-- Subject: Unit ssh.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Reached target Network is Online.
+-- Subject: Unit network-online.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-online.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting iSCSI initiator daemon (iscsid)...
+-- Subject: Unit iscsid.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting LSB: Blackfire Agent...
+-- Subject: Unit blackfire-agent.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit blackfire-agent.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting /etc/rc.local Compatibility...
+-- Subject: Unit rc-local.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started /etc/rc.local Compatibility.
+-- Subject: Unit rc-local.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp run-parts[1339]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+Feb 15 13:13:43 laravelapp iscsid[1380]: [0;1;39miSCSI logger with pid=1386 started![0m
+Feb 15 13:13:43 laravelapp iscsid[1386]: [0;1;31miSCSI daemon with pid=1387 started![0m
+Feb 15 13:13:43 laravelapp systemd[1]: Started iSCSI initiator daemon (iscsid).
+-- Subject: Unit iscsid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit iscsid.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp sshd[1350]: Server listening on 0.0.0.0 port 22.
+Feb 15 13:13:43 laravelapp sshd[1350]: Server listening on :: port 22.
+Feb 15 13:13:43 laravelapp systemd[1]: Started OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Login to default iSCSI targets...
+-- Subject: Unit open-iscsi.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit open-iscsi.service has begun starting up.
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:  * Starting Blackfire Agent blackfire-agent
+Feb 15 13:13:43 laravelapp iscsiadm[1409]: iscsiadm: No records found
+Feb 15 13:13:43 laravelapp systemd[1]: Started Login to default iSCSI targets.
+-- Subject: Unit open-iscsi.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit open-iscsi.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Reached target Remote File Systems (Pre).
+-- Subject: Unit remote-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Reached target Remote File Systems.
+-- Subject: Unit remote-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit remote-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+-- Subject: Unit irqbalance.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting LSB: Start/stop sysstat's sadc...
+-- Subject: Unit sysstat.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysstat.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting LSB: automatic crash report generation...
+-- Subject: Unit apport.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+-- Subject: Unit ondemand.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started LSB: Start/stop sysstat's sadc.
+-- Subject: Unit sysstat.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysstat.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+-- Subject: Unit ondemand.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Terminate Plymouth Boot Screen...
+-- Subject: Unit plymouth-quit.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: Unit plymouth-quit-wait.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Hold until boot process finishes up.
+-- Subject: Unit plymouth-quit-wait.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Getty on tty1.
+-- Subject: Unit getty@tty1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty1.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Reached target Login Prompts.
+-- Subject: Unit getty.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting Set console scheme...
+-- Subject: Unit setvtrgb.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Set console scheme.
+-- Subject: Unit setvtrgb.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Terminate Plymouth Boot Screen.
+-- Subject: Unit plymouth-quit.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp irqbalance[1420]:  * Starting SMP IRQ Balancer: irqbalance
+Feb 15 13:13:43 laravelapp run-parts[1435]: run-parts: executing /etc/redis/redis-server.post-up.d/00_example
+Feb 15 13:13:43 laravelapp apport[1423]:  * Starting automatic crash report generation: apport
+Feb 15 13:13:43 laravelapp apport[1423]:    ...done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started LSB: automatic crash report generation.
+-- Subject: Unit apport.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started A high performance web server and a reverse proxy server.
+-- Subject: Unit nginx.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit nginx.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp irqbalance[1420]:    ...done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+-- Subject: Unit irqbalance.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Advanced key-value store.
+-- Subject: Unit redis-server.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp su[1417]: Successful su for blackfire by root
+Feb 15 13:13:43 laravelapp su[1417]: + ??? root:blackfire
+Feb 15 13:13:43 laravelapp su[1417]: pam_unix(su:session): session opened for user blackfire by (uid=0)
+Feb 15 13:13:43 laravelapp systemd[1]: Created slice User Slice of blackfire.
+-- Subject: Unit user-998.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-998.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting User Manager for UID 998...
+-- Subject: Unit user@998.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd-logind[926]: New session c1 of user blackfire.
+-- Subject: A new session c1 has been created for user blackfire
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID c1 has been created for the user blackfire.
+-- 
+-- The leading process of the session is 1417.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Session c1 of user blackfire.
+-- Subject: Unit session-c1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: pam_unix(systemd-user:session): session opened for user blackfire by (uid=0)
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1538]: Startup finished in 15ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 15031 microseconds.
+Feb 15 13:13:43 laravelapp systemd[1]: Started User Manager for UID 998.
+-- Subject: Unit user@998.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp su[1417]: pam_unix(su:session): session closed for user blackfire
+Feb 15 13:13:43 laravelapp systemd-logind[926]: Removed session c1.
+-- Subject: Session c1 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID c1 has been terminated.
+Feb 15 13:13:43 laravelapp systemd[1]: Stopping User Manager for UID 998...
+-- Subject: Unit user@998.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has begun shutting down.
+Feb 15 13:13:43 laravelapp systemd[1538]: Stopped target Default.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1538]: Stopped target Basic System.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp su[1629]: Successful su for blackfire by root
+Feb 15 13:13:43 laravelapp systemd[1538]: Stopped target Paths.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp su[1629]: + ??? root:blackfire
+Feb 15 13:13:43 laravelapp systemd[1538]: Stopped target Timers.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp su[1629]: pam_unix(su:session): session opened for user blackfire by (uid=0)
+Feb 15 13:13:43 laravelapp systemd[1538]: Reached target Shutdown.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: pam_unix(systemd-user:session): session opened for user blackfire by (uid=0)
+Feb 15 13:13:43 laravelapp systemd[1538]: Starting Exit the Session...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1538]: Stopped target Sockets.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1538]: Received SIGRTMIN+24 from PID 1622 (kill).
+Feb 15 13:13:43 laravelapp systemd[1]: Stopped User Manager for UID 998.
+-- Subject: Unit user@998.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1]: Removed slice User Slice of blackfire.
+-- Subject: Unit user-998.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-998.slice has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd-logind[926]: New session c2 of user blackfire.
+-- Subject: A new session c2 has been created for user blackfire
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID c2 has been created for the user blackfire.
+-- 
+-- The leading process of the session is 1629.
+Feb 15 13:13:43 laravelapp systemd[1]: Created slice user-998.slice.
+-- Subject: Unit user-998.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-998.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started Session c2 of user blackfire.
+-- Subject: Unit session-c2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Starting User Manager for UID 998...
+-- Subject: Unit user@998.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Startup finished in 14ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 14046 microseconds.
+Feb 15 13:13:43 laravelapp systemd[1]: Started User Manager for UID 998.
+-- Subject: Unit user@998.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1]: Started The PHP 7.1 FastCGI Process Manager.
+-- Subject: Unit php7.1-fpm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit php7.1-fpm.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]: The server ID parameter is not set. Please run 'blackfire-agent -register' to configure it.
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]: usage /usr/bin/blackfire-agent [options]
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --collector="https://blackfire.io": Sets the URL of Blackfire's data collector
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --config="/etc/blackfire/agent": Sets the path to the configuration file
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   -d: Prints the current configuration
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --http-proxy="": Sets the http proxy to use
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --https-proxy="": Sets the https proxy to use
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --log-file="stderr": Sets the path of the log file. Use stderr to log to stderr
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --log-level="1": log verbosity level (4: debug, 3: info, 2: warning, 1: error)
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --register: Helps you with registering the agent
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --server-id="": Sets the server id used to authenticate with Blackfire API
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --server-token="": Sets the server token used to authenticate with Blackfire API. It is unsafe to set this from the command line
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --socket="unix:///var/run/blackfire/agent.sock": Sets the socket the agent should read traces from. Possible value can be a unix socket or a TCP address. ie: unix:///var/run/blackfire/agent.sock or tcp://127.0.0.1:8307
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --test: Tests the configuration
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   --timeout="15s": Sets the Blackfire connection timeout
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:   -v: Prints the version number
+Feb 15 13:13:43 laravelapp su[1629]: pam_unix(su:session): session closed for user blackfire
+Feb 15 13:13:43 laravelapp blackfire-agent[1358]:    ...fail!
+Feb 15 13:13:43 laravelapp systemd[1]: [0;1;39mblackfire-agent.service: Control process exited, code=exited status=1[0m
+Feb 15 13:13:43 laravelapp systemd[1]: [0;1;31mFailed to start LSB: Blackfire Agent.[0m
+-- Subject: Unit blackfire-agent.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit blackfire-agent.service has failed.
+-- 
+-- The result is failed.
+Feb 15 13:13:43 laravelapp systemd[1]: [0;1;39mblackfire-agent.service: Unit entered failed state.[0m
+Feb 15 13:13:43 laravelapp systemd[1]: [0;1;39mblackfire-agent.service: Failed with result 'exit-code'.[0m
+Feb 15 13:13:43 laravelapp systemd-logind[926]: Removed session c2.
+-- Subject: Session c2 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID c2 has been terminated.
+Feb 15 13:13:43 laravelapp systemd[1]: Stopping User Manager for UID 998...
+-- Subject: Unit user@998.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has begun shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Reached target Shutdown.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:43 laravelapp systemd[1637]: Starting Exit the Session...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Feb 15 13:13:43 laravelapp systemd[1637]: Stopped target Default.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Stopped target Basic System.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Stopped target Sockets.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Stopped target Timers.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Stopped target Paths.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1637]: Received SIGRTMIN+24 from PID 1694 (kill).
+Feb 15 13:13:43 laravelapp systemd[1640]: pam_unix(systemd-user:session): session closed for user blackfire
+Feb 15 13:13:43 laravelapp systemd[1]: Stopped User Manager for UID 998.
+-- Subject: Unit user@998.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@998.service has finished shutting down.
+Feb 15 13:13:43 laravelapp systemd[1]: Removed slice user-998.slice.
+-- Subject: Unit user-998.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-998.slice has finished shutting down.
+Feb 15 13:13:43 laravelapp supervisord[1344]: 2017-02-15 13:13:43,953 CRIT Supervisor running as root (no user in config file)
+Feb 15 13:13:43 laravelapp supervisord[1344]: 2017-02-15 13:13:43,953 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+Feb 15 13:13:43 laravelapp supervisord[1344]: 2017-02-15 13:13:43,961 INFO RPC interface 'supervisor' initialized
+Feb 15 13:13:43 laravelapp supervisord[1344]: 2017-02-15 13:13:43,962 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+Feb 15 13:13:43 laravelapp supervisord[1344]: 2017-02-15 13:13:43,962 INFO supervisord started with pid 1344
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] /usr/sbin/mysqld (mysqld 10.2.3-MariaDB-10.2.3+maria~xenial-log) starting as process 1687 ...[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: PUNCH HOLE support available[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Uses event mutexes[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Compressed tables use zlib 1.2.8[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Using Linux native AIO[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Number of pools: 1[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Using SSE2 crc32 instructions[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Completed initialization of buffer pool[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140668659783424 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Tablespace ID 0 name innodb_system:Default tablespace encryption mode scheme unencrypted[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Highest supported file format is Barracuda.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Creating shared tablespace for temporary tables[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: File './ibtmp1' size is now 12 MB.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: Tablespace ID 4294967294 name innodb_temporary:Default tablespace encryption mode scheme unencrypted[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: 32 non-redo rollback segment(s) are active.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] InnoDB: 5.7.14 started; log sequence number 1291634[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140668563351296 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] Plugin 'FEEDBACK' is disabled.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140668563351296 [Note] InnoDB: Buffer pool(s) load completed at 170215 13:13:44[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] Server socket created on IP: '0.0.0.0'.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] Reading of all Master_info entries succeded[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] Added new Master_info '' to hash table[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:13:44 140669898598592 [Note] /usr/sbin/mysqld: ready for connections.[0m
+Feb 15 13:13:44 laravelapp mysqld[1687]: [0;1;31mVersion: '10.2.3-MariaDB-10.2.3+maria~xenial-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution[0m
+Feb 15 13:13:44 laravelapp audit[1687]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=1687 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:13:45 laravelapp sshd[1731]: Accepted publickey for vagrant from 10.0.2.2 port 45130 ssh2: RSA SHA256:8+14RnRkW++f4YhZXhWLby2yeAJbewiEN1iU5JCFvwA
+Feb 15 13:13:45 laravelapp sshd[1731]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 15 13:13:45 laravelapp systemd[1]: Created slice User Slice of vagrant.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+Feb 15 13:13:45 laravelapp systemd[1733]: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 15 13:13:45 laravelapp systemd[1]: Started Session 1 of user vagrant.
+-- Subject: Unit session-1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd-logind[926]: New session 1 of user vagrant.
+-- Subject: A new session 1 has been created for user vagrant
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 1 has been created for the user vagrant.
+-- 
+-- The leading process of the session is 1731.
+Feb 15 13:13:45 laravelapp systemd[1733]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1733]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1733]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1733]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1733]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:45 laravelapp systemd[1733]: Startup finished in 8ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 8494 microseconds.
+Feb 15 13:13:45 laravelapp systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:46 laravelapp sudo[1826]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:46 laravelapp sudo[1826]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:47 laravelapp sudo[1826]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:47 laravelapp sudo[1837]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:47 laravelapp sudo[1837]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:47 laravelapp kernel: IPv6: ADDRCONF(NETDEV_UP): enp0s8: link is not ready
+Feb 15 13:13:47 laravelapp kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 15 13:13:47 laravelapp kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s8: link becomes ready
+Feb 15 13:13:47 laravelapp systemd[1]: Reloading OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has begun reloading its configuration
+Feb 15 13:13:47 laravelapp sshd[1350]: Received SIGHUP; restarting.
+Feb 15 13:13:47 laravelapp systemd[1]: Reloaded OpenBSD Secure Shell server.
+-- Subject: Unit ssh.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ssh.service has finished reloading its configuration
+-- 
+-- The result is done.
+Feb 15 13:13:47 laravelapp sshd[1350]: Server listening on 0.0.0.0 port 22.
+Feb 15 13:13:47 laravelapp sshd[1350]: Server listening on :: port 22.
+Feb 15 13:13:47 laravelapp sudo[1837]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:48 laravelapp sudo[1927]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:48 laravelapp sudo[1927]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:48 laravelapp sudo[1927]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:48 laravelapp sudo[1933]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:48 laravelapp sudo[1933]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:48 laravelapp sudo[1933]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:48 laravelapp sudo[1940]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:48 laravelapp sudo[1940]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:48 laravelapp sudo[1940]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:48 laravelapp sudo[1949]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:48 laravelapp sudo[1949]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:48 laravelapp sudo[1949]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:49 laravelapp sudo[1965]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:49 laravelapp sudo[1965]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:49 laravelapp sudo[1965]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:49 laravelapp sudo[1972]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:49 laravelapp sudo[1972]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:49 laravelapp sudo[1972]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:49 laravelapp sudo[1979]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:49 laravelapp sudo[1979]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:50 laravelapp sudo[1979]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:50 laravelapp sudo[1985]: [0;1;39m vagrant : TTY=unknown ; PWD=/home/vagrant ; USER=root ; COMMAND=/bin/bash -c BASH_ENV=/etc/profile exec bash[0m
+Feb 15 13:13:50 laravelapp sudo[1985]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Feb 15 13:13:50 laravelapp sudo[1985]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:13:50 laravelapp sshd[1969]: Did not receive identification string from 10.0.2.2
+Feb 15 13:13:50 laravelapp sshd[1731]: pam_unix(sshd:session): session closed for user vagrant
+Feb 15 13:13:50 laravelapp systemd-logind[926]: Removed session 1.
+-- Subject: Session 1 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID 1 has been terminated.
+Feb 15 13:13:50 laravelapp systemd[1]: Stopping User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Reached target Shutdown.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:13:50 laravelapp systemd[1733]: Stopped target Default.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Starting Exit the Session...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+Feb 15 13:13:50 laravelapp systemd[1733]: Stopped target Basic System.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Stopped target Paths.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Stopped target Timers.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Stopped target Sockets.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1733]: Received SIGRTMIN+24 from PID 1992 (kill).
+Feb 15 13:13:50 laravelapp systemd[1734]: pam_unix(systemd-user:session): session closed for user vagrant
+Feb 15 13:13:50 laravelapp systemd[1]: Stopped User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished shutting down.
+Feb 15 13:13:50 laravelapp systemd[1]: Removed slice User Slice of vagrant.
+-- Subject: Unit user-1000.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished shutting down.
+Feb 15 13:14:08 laravelapp sshd[1998]: Accepted publickey for vagrant from 10.0.2.2 port 45160 ssh2: RSA SHA256:8+14RnRkW++f4YhZXhWLby2yeAJbewiEN1iU5JCFvwA
+Feb 15 13:14:08 laravelapp sshd[1998]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Feb 15 13:14:08 laravelapp systemd[1]: Created slice User Slice of vagrant.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+Feb 15 13:14:08 laravelapp systemd[1]: Started Session 2 of user vagrant.
+-- Subject: Unit session-2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: pam_unix(systemd-user:session): session opened for user vagrant by (uid=0)
+Feb 15 13:14:08 laravelapp systemd-logind[926]: New session 2 of user vagrant.
+-- Subject: A new session 2 has been created for user vagrant
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID 2 has been created for the user vagrant.
+-- 
+-- The leading process of the session is 1998.
+Feb 15 13:14:08 laravelapp systemd[2000]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:14:08 laravelapp systemd[2000]: Startup finished in 24ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 24662 microseconds.
+Feb 15 13:14:08 laravelapp systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:15:01 laravelapp CRON[2058]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 13:15:01 laravelapp CRON[2059]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Feb 15 13:15:01 laravelapp CRON[2058]: pam_unix(cron:session): session closed for user root
+Feb 15 13:15:13 laravelapp systemd[1]: [0;1;39mmariadb.service: Start operation timed out. Terminating.[0m
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140669847114496 [Note] /usr/sbin/mysqld (unknown): Normal shutdown[0m
+Feb 15 13:15:13 laravelapp audit[1687]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=1687 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140669847114496 [Note] Event Scheduler: Purging the queue. 0 events[0m
+Feb 15 13:15:13 laravelapp kernel: [0;1;39maudit_printk_skb: 15 callbacks suppressed[0m
+Feb 15 13:15:13 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164513.833:17): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=1687 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140668546565888 [Note] InnoDB: FTS optimize thread exiting.[0m
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140669847114496 [Note] InnoDB: Starting shutdown...[0m
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140668563351296 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool[0m
+Feb 15 13:15:13 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:13 140668563351296 [Note] InnoDB: Buffer pool(s) dump completed at 170215 13:15:13[0m
+Feb 15 13:15:15 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:15 140669847114496 [Note] InnoDB: Shutdown completed; log sequence number 1291662[0m
+Feb 15 13:15:15 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:15 140669847114496 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"[0m
+Feb 15 13:15:15 laravelapp mysqld[1687]: [0;1;31m2017-02-15 13:15:15 140669847114496 [Note] /usr/sbin/mysqld: Shutdown complete[0m
+Feb 15 13:15:15 laravelapp audit[2070]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2070 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:15:15 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164515.242:18): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2070 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:15:15 laravelapp audit[1687]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=1687 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:15:15 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164515.242:19): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=1687 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:15:15 laravelapp systemd[1]: [0;1;31mFailed to start MariaDB database server.[0m
+-- Subject: Unit mariadb.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mariadb.service has failed.
+-- 
+-- The result is failed.
+Feb 15 13:15:15 laravelapp systemd[1]: [0;1;39mmariadb.service: Unit entered failed state.[0m
+Feb 15 13:15:15 laravelapp systemd[1]: [0;1;39mmariadb.service: Failed with result 'timeout'.[0m
+Feb 15 13:15:15 laravelapp systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:15:15 laravelapp systemd[1]: Reached target Graphical Interface.
+-- Subject: Unit graphical.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:15:15 laravelapp systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+Feb 15 13:15:15 laravelapp systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:15:15 laravelapp systemd[1]: Startup finished in 5.966s (kernel) + 1min 35.426s (userspace) = 1min 41.393s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 5966771 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 95426970 microseconds.
+Feb 15 13:17:01 laravelapp CRON[2082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Feb 15 13:17:01 laravelapp CRON[2083]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Feb 15 13:17:01 laravelapp CRON[2082]: pam_unix(cron:session): session closed for user root
+Feb 15 13:19:24 laravelapp sudo[2091]: [0;1;39m vagrant : TTY=pts/0 ; PWD=/home/vagrant/project ; USER=root ; COMMAND=/usr/bin/find / -type s[0m
+Feb 15 13:19:24 laravelapp sudo[2091]: pam_unix(sudo:session): session opened for user root by vagrant(uid=0)
+Feb 15 13:19:30 laravelapp systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 2092 (find)
+Feb 15 13:19:30 laravelapp systemd[1]: Mounting Arbitrary Executable File Formats File System...
+-- Subject: Unit proc-sys-fs-binfmt_misc.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit proc-sys-fs-binfmt_misc.mount has begun starting up.
+Feb 15 13:19:30 laravelapp systemd[1]: Mounted Arbitrary Executable File Formats File System.
+-- Subject: Unit proc-sys-fs-binfmt_misc.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit proc-sys-fs-binfmt_misc.mount has finished starting up.
+-- 
+-- The start-up result is done.
+Feb 15 13:19:31 laravelapp sudo[2091]: pam_unix(sudo:session): session closed for user root
+Feb 15 13:19:49 laravelapp polkitd(authority=local)[1027]: [0;1;39mRegistered Authentication Agent for unix-process:2103:37507 (system bus name :1.37 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Feb 15 13:19:55 laravelapp polkit-agent-helper-1[2138]: [0;1;39mpam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=vagrant rhost=  user=vagrant[0m
+Feb 15 13:19:56 laravelapp polkitd(authority=local)[1027]: [0;1;39mOperator of unix-process:2103:37507 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.38 [systemctl stop mysqld.service] (owned by unix-user:vagrant)[0m
+Feb 15 13:19:56 laravelapp polkitd(authority=local)[1027]: [0;1;39mUnregistered Authentication Agent for unix-process:2103:37507 (system bus name :1.37, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Feb 15 13:20:00 laravelapp polkitd(authority=local)[1027]: [0;1;39mRegistered Authentication Agent for unix-process:2140:38635 (system bus name :1.64 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Feb 15 13:20:02 laravelapp polkitd(authority=local)[1027]: [0;1;39mOperator of unix-process:2140:38635 successfully authenticated as unix-user:vagrant to gain ONE-SHOT authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.65 [systemctl stop mysqld.service] (owned by unix-user:vagrant)[0m
+Feb 15 13:20:02 laravelapp systemd[1]: Stopped MariaDB database server.
+-- Subject: Unit mariadb.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mariadb.service has finished shutting down.
+Feb 15 13:20:02 laravelapp polkitd(authority=local)[1027]: [0;1;39mUnregistered Authentication Agent for unix-process:2140:38635 (system bus name :1.64, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+Feb 15 13:20:07 laravelapp polkitd(authority=local)[1027]: [0;1;39mRegistered Authentication Agent for unix-process:2178:39343 (system bus name :1.92 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+Feb 15 13:20:10 laravelapp polkitd(authority=local)[1027]: [0;1;39mOperator of unix-process:2178:39343 successfully authenticated as unix-user:vagrant to gain ONE-SHOT authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.93 [systemctl start mysqld.service] (owned by unix-user:vagrant)[0m
+Feb 15 13:20:10 laravelapp systemd[1]: Starting MariaDB database server...
+-- Subject: Unit mariadb.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mariadb.service has begun starting up.
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] /usr/sbin/mysqld (mysqld 10.2.3-MariaDB-10.2.3+maria~xenial-log) starting as process 2384 ...[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: PUNCH HOLE support available[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Uses event mutexes[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Compressed tables use zlib 1.2.8[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Using Linux native AIO[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Number of pools: 1[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Using SSE2 crc32 instructions[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Initializing buffer pool, total size = 256M, instances = 1, chunk size = 128M[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Completed initialization of buffer pool[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140485578413824 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Tablespace ID 0 name innodb_system:Default tablespace encryption mode scheme unencrypted[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Highest supported file format is Barracuda.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Creating shared tablespace for temporary tables[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: File './ibtmp1' size is now 12 MB.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Tablespace ID 4294967294 name innodb_temporary:Default tablespace encryption mode scheme unencrypted[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: 32 non-redo rollback segment(s) are active.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: Waiting for purge to start[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] InnoDB: 5.7.14 started; log sequence number 1291662[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140485477791488 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] Plugin 'FEEDBACK' is disabled.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] Server socket created on IP: '0.0.0.0'.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140485477791488 [Note] InnoDB: Buffer pool(s) load completed at 170215 13:20:11[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] Reading of all Master_info entries succeded[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] Added new Master_info '' to hash table[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:20:11 140486816422080 [Note] /usr/sbin/mysqld: ready for connections.[0m
+Feb 15 13:20:11 laravelapp mysqld[2384]: [0;1;31mVersion: '10.2.3-MariaDB-10.2.3+maria~xenial-log'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution[0m
+Feb 15 13:20:11 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164811.622:20): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:20:11 laravelapp audit[2384]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:21:41 laravelapp systemd[1]: [0;1;39mmariadb.service: Start operation timed out. Terminating.[0m
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140486815318784 [Note] /usr/sbin/mysqld (unknown): Normal shutdown[0m
+Feb 15 13:21:41 laravelapp audit[2384]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140486815318784 [Note] Event Scheduler: Purging the queue. 0 events[0m
+Feb 15 13:21:41 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164901.095:21): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140485461006080 [Note] InnoDB: FTS optimize thread exiting.[0m
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140486815318784 [Note] InnoDB: Starting shutdown...[0m
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140485477791488 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool[0m
+Feb 15 13:21:41 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:41 140485477791488 [Note] InnoDB: Buffer pool(s) dump completed at 170215 13:21:41[0m
+Feb 15 13:21:42 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:42 140486815318784 [Note] InnoDB: Shutdown completed; log sequence number 1291690[0m
+Feb 15 13:21:42 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:42 140486815318784 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"[0m
+Feb 15 13:21:42 laravelapp mysqld[2384]: [0;1;31m2017-02-15 13:21:42 140486815318784 [Note] /usr/sbin/mysqld: Shutdown complete[0m
+Feb 15 13:21:42 laravelapp audit[2422]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2422 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:21:42 laravelapp audit[2384]: AVC apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0
+Feb 15 13:21:42 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164902.392:22): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2422 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:21:42 laravelapp kernel: [0;1;39maudit: type=1400 audit(1487164902.392:23): apparmor="DENIED" operation="sendmsg" info="Failed name lookup - disconnected path" error=-13 profile="/usr/sbin/mysqld" name="run/systemd/notify" pid=2384 comm="mysqld" requested_mask="w" denied_mask="w" fsuid=113 ouid=0[0m
+Feb 15 13:21:42 laravelapp systemd[1]: [0;1;31mFailed to start MariaDB database server.[0m
+-- Subject: Unit mariadb.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit mariadb.service has failed.
+-- 
+-- The result is failed.
+Feb 15 13:21:42 laravelapp systemd[1]: [0;1;39mmariadb.service: Unit entered failed state.[0m
+Feb 15 13:21:42 laravelapp systemd[1]: [0;1;39mmariadb.service: Failed with result 'timeout'.[0m
+Feb 15 13:21:42 laravelapp polkitd(authority=local)[1027]: [0;1;39mUnregistered Authentication Agent for unix-process:2178:39343 (system bus name :1.92, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m

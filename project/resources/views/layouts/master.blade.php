@@ -2,19 +2,26 @@
 <html>
 <head>
     <title>My App</title>
+
+    <script type="text/css">
+        body {
+            padding-top: 50px;
+        }
+        .starter-template {
+            padding: 40px 15px;
+            text-align: center;
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     @include('layouts.bootstrap')
 </head>
 <body>
     @include('layouts.header')
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Hello, world!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-        </div>
-    </div>
     <div class="container">
+        <div class="starter-template">
         @yield('content')
+        </div>
     </div>
     <div id="footer">
         @include('layouts.footer')
