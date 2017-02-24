@@ -14,12 +14,12 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/home/lubomir/www/laravel_project/project"
-      to: "/home/vagrant/project"
+    - map: "/home/lubomir/www/laravel_project/source"
+      to: "/home/vagrant/source"
 
 sites:
     - map: laravel.app
-      to: "/home/vagrant/project/public"
+      to: "/home/vagrant/project/source"
 
 databases:
     - laravelapp
